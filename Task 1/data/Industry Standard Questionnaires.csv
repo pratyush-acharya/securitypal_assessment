@@ -1,0 +1,29 @@
+Do you restrict access to cardholder data by business need to know?
+Do you identify and authenticate access to system components?
+Do you restrict physical access to cardholders data?
+Does your business use network segmentation to affect the scope of your Payment Card Industry Data Security Standard (PCI DSS) environment?
+Do you install and maintain a firewall configuration to protect cardholder data?
+What information do you have about the service provider organization?
+Does the organization use one or more Payment Applications?
+Do you protect all systems against malware and regularly update anti-virus software or programs?
+Is there information available about the Qualified Security Assessor (QSA) company?
+Do you regularly test security systems and processes?
+Do you track and monitor all access to network resources and cardholder data?
+Do you protect stored cardholder data?
+"
+How does your business store, process, and transmit cardholder data, and in what capacity?"
+"
+In what capacity is your business otherwise involved in or has the ability to impact the security of cardholder data?"
+"Do you encrypt the transmission of cardholder data across open, public networks?"
+Should vendor-supplied defaults for system passwords and other security parameters be avoided?
+"Which types of facilities, such as retail outlets, corporate offices, data centers, call centers, and so on are included in the Payment Card Industry Data Security Standard (PCI DSS) review, and could you provide a summary of their locations?"
+Can you list services that were included in the scope of the Payment Card Industry Data Security Standard (PCI DSS) Assessment?
+Can you list services that are provided by the service provider but were not included in the scope of the Payment Card Industry Data Security Standard (PCI DSS) Assessment?
+Are there additional Payment Card Industry Data Security Standard (PCI DSS) Requirements for Shared Hosting Providers?
+"Are there additional Payment Card Industry Data Security Standard (PCI DSS) Requirements for entities using Single Sign-On (SSL) or early Transport Layer Security (TLS) for Card-Present Point-of-Sales (POS), Point of Interaction (POI) Terminal Connections?"
+Does the organization have an established and documented set of principles for engineering secure systems throughout the secure development lifecycle?
+"Have you developed and implemented a program to execute the validation process that validates the information inputs? If yes, do you test the validation program to ensure it is functioning properly?
+Have you identified the types of errors that could occur in the validation system? If yes, do you test the system to ensure that the error messages are only revealed to the designated personnel or roles?"
+"Does your company have a relationship with a Qualified Integrator and Reseller (QIR) for the purpose of the services being validated? If yes, can you provide the name of the Qualified Integrator and Reseller (QIR) company, the Qualified Integrator and Reseller (QIR) individual name, and a description of the services provided by Qualified Integrator and Reseller (QIR)?"
+"Can you provide the name of the Qualified Integrator and Reseller (QIR) company, the Qualified Integrator and Reseller (QIR) individual name, and a description of the services provided by Qualified Integrator and Reseller (QIR)?"
+Do you maintain a policy that addresses information security for all personnel?
