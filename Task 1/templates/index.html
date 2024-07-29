@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Task 1</title>
+</head>
+<body>
+    <h1 class="text-center">Knowledge Base Question Classification</h1>
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <div class="mt-3">
+            <p>
+                Upload a CSV file with questions to classify them. </br>
+                <strong>Make sure the CSV file has "questions" heading for the questions to be selected.</strong>
+            </p>
+        </div>
+        <div class="mb-3">
+            <form action="/upload" method="post" enctype="multipart/form-data" class="form shadow-sm p-4">
+                <div class="mb-3">
+                    <label for="file" class="form-label" >Upload the questionnaire</label>
+                    <input type="file" name="file" class="form-control">
+                </div>
+                <input type="submit" value="Upload" class="btn btn-primary"> 
+            </form>
+        </div>
+        {% if classification_results %}
+        <div class="w-75">
+
+            <h2>Results</h2>
+            <p><strong>Completion Percentage: </strong>{{ completion_percentage }}%</p>
+            <table class="table table-stripped table-brodered table-hover">
+                <tr>
+                    <th>Question</th>
+                    <th>Classification</th>
+                </tr>
+                {% for result in classification_results %}
+                <tr>
+                    <td>{{ result['questions'] }}</td>
+                    <td>{{ result['classification'] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

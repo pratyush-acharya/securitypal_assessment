@@ -1,3 +1,4 @@
+questions
 Do you restrict access to cardholder data by business need to know?
 Do you identify and authenticate access to system components?
 Do you restrict physical access to cardholders data?
@@ -27,3 +28,4 @@ Have you identified the types of errors that could occur in the validation syste
 "Does your company have a relationship with a Qualified Integrator and Reseller (QIR) for the purpose of the services being validated? If yes, can you provide the name of the Qualified Integrator and Reseller (QIR) company, the Qualified Integrator and Reseller (QIR) individual name, and a description of the services provided by Qualified Integrator and Reseller (QIR)?"
 "Can you provide the name of the Qualified Integrator and Reseller (QIR) company, the Qualified Integrator and Reseller (QIR) individual name, and a description of the services provided by Qualified Integrator and Reseller (QIR)?"
 Do you maintain a policy that addresses information security for all personnel?
+Do you disclose security vulnerabilities?
